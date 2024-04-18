@@ -54,7 +54,7 @@ pip install pandas
 
 Clone our Git Repository using the following line of code in your terminal:
 ```
-git clone <repository_url>
+git clone https://github.com/abbyymaureen/ChallengeFive.git
 ```
 
 5. Open Project in IDE
