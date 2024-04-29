@@ -1,4 +1,4 @@
-# CSV Splitter
+# CSV Splitter & Statistics Generator
 This CSV splitter will take any csv following the formatting of the
 annual international math competition. The columns for this file should
 read as follows:
@@ -43,11 +43,12 @@ You can choose any Integrated Development Environment (IDE) for Python developme
 If you haven't already installed Python, you can download and install it from the official Python website.
 - Python Download Link: https://www.python.org/downloads/
 
-3. Install Pandas
+3. Install Pandas and difflib
 
 Pandas can be installed using pip, the Python package installer. Open your command line interface and run the following command:
 ```
 pip install pandas
+pip install difflib
 ```
 
 4. Clone Git Repository
@@ -73,3 +74,6 @@ FILE_NAME = 'your_file.csv'
 ```
 
 And you are all set! Simply press 'Run' to run our program and start splitting CSVs.
+To then use your split CSVs, navigate to the Statistics.py file, then
+hit the 'play' button. The program will walk you through how to generate
+various statistics and will both save them to a CSV and print the values to the console.
